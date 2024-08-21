@@ -1,0 +1,18 @@
+body{
+  background-color: pink;
+}
+
+div{
+  height: 20vh;
+  width: 100vw;
+  background-color: pink;
+
+}
+.btn{
+  height: 30px;
+  width: 100px;
+  background-color: aqua;
+}
+h3{
+  color: black;
+}

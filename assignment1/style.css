@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: border-box;
+}
+body{
+  background-color: pink;
+}
+
+
+.navbar{
+  background-color: rgb(243, 119, 140);
+  height: 70px;
+  width: 100%;
+  display: flex;
+  padding-top: 10px ;
+  
+}.logo{
+  background-image: url("main-qimg-b4033069766730e15e200c95e785ee8e\ \(1\).webp");
+  height: 50px;
+  background-size: cover;
+}
+.logo-icon{
+  height: 70px;
+  width: 100px;
+}
+ .navbar .links{
+  padding-left: 900px ;
+  margin-left:20px ;
+  align-items: center;
+ 
+}
+.navbar .links a{
+  margin-right:10px ;
+  color: rgb(56, 3, 3);
+}
+.menubar ul{
+  display: flex;
+  
+  justify-content: center;
+  
+}
+.menubar ul li{
+  list-style: none;
+  margin-right:40px ;
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+  color: rgb(148, 19, 30);
+}
+.sidebar-content{
+  color: rgb(233, 214, 214);
+  background-color: rgb(114, 5, 41);
+  height: 300px;
+  width: 200px;
+  padding: 90px 30px;
+  border: 2px solid white;
+  border-radius: 30px;
+}
+.sidebar-content ul li{
+  list-style: none;
+  margin: 40px;
+
+}
+.input-search{
+  border: 2px solid rgb(63, 3, 3);
+  height: 20px;
+  padding: 2px;
+  width: 200px;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: rgb(238, 157, 157);
+}
+.sidebar{
+  display: flex;
+}
+.sidebar-images .sidebar-div{
+  
+  display: flex;
+  flex-wrap:wrap ;
+}
+.sidebar-images .sidebar-div .dress{
+  
+  height: 200px;
+  width: 220px;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: 20px;
+  background-color: rgb(238, 87, 87);
+}
+  
+
+.sidebar-images .sidebar-div .dress .dress-content{
+  margin:2px;
+  background-color: rgb(235, 149, 149);
+  height: 200px;
+  border-radius: 20px;
+  
+  
+  
+}
+.sidebar-images .sidebar-div .dress img{
+  height: 150px;
+  width: 100%;
+  background-size: cover;
+  border-radius: 20px;
+  border: 1px solid white;
+  
+
+}
+footer {
+  background: linear-gradient(135deg, #e43b8f, #e64950);
+  color: #dfd9d9;
+  text-align: center;
+  padding: 10px 0;
+  position: relative;
+  width: 100%;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+
+
